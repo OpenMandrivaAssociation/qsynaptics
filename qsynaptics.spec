@@ -38,7 +38,6 @@ install bin/%{name} %{buildroot}%{_bindir}
 mkdir -p %{buildroot}%{_datadir}/applications
 cat > %{buildroot}%{_datadir}/applications/mandriva-%{name}.desktop <<EOF
 [Desktop Entry]
-Encoding=UTF-8
 Name=Qsynaptics
 Comment=A QT application to configure Synaptics TouchPad
 Exec=%{_bindir}/%{name} 
