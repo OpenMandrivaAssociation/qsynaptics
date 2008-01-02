@@ -13,6 +13,7 @@ Source:		http://prdownloads.sourceforge.net/qsynaptics/%{name}/%{name}-%{version
 Source11:	mmouse.png
 Source12:	mouse.png
 Source13:	lmouse.png
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	qt3-devel >= 3.2
 Requires:	synaptics
 
