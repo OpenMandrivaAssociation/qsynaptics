@@ -1,11 +1,10 @@
 %define name qsynaptics
 %define version 0.22.0
-%define release %mkrel 3
 
 Summary:	A QT application to configure Synaptic TouchPad
 Name:		%{name}
 Version:	%{version}
-Release:	%{release}
+Release:	%mkrel 4
 License:	GPL
 Url:		http://qsynaptics.sourceforge.net/
 Group:		System/Configuration/Hardware
