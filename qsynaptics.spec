@@ -4,7 +4,7 @@
 Summary:	A QT application to configure Synaptic TouchPad
 Name:		%{name}
 Version:	%{version}
-Release:	%mkrel 5
+Release:	%mkrel 6
 License:	GPL
 Url:		http://qsynaptics.sourceforge.net/
 Group:		System/Configuration/Hardware
@@ -12,8 +12,7 @@ Source:		http://prdownloads.sourceforge.net/qsynaptics/%{name}/%{name}-%{version
 Source11:	mmouse.png
 Source12:	mouse.png
 Source13:	lmouse.png
-Patch1: qsynaptics-0.22-use-synclient-shm.patch
-Patch2: qsynaptics-0.22-stdlib-for-exit.patch
+Patch1: qsynaptics-0.22-stdlib-for-exit.patch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	qt3-devel >= 3.2
 Requires:	synaptics
@@ -27,7 +26,6 @@ The program is based on the X11 synaptics touch pad driver.
 %prep
 %setup -q
 %patch1 -p1
-%patch2 -p1
 
 %build
 export PATH=%{_prefix}/lib/qt3/bin:$PATH
