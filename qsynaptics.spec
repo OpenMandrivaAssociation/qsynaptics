@@ -4,7 +4,7 @@
 Summary:	A QT application to configure Synaptic TouchPad
 Name:		%{name}
 Version:	%{version}
-Release:	%mkrel 8
+Release:	%mkrel 9
 License:	GPL
 Url:		http://qsynaptics.sourceforge.net/
 Group:		System/Configuration/Hardware
@@ -12,7 +12,7 @@ Source:		http://prdownloads.sourceforge.net/qsynaptics/%{name}/%{name}-%{version
 Source11:	mmouse.png
 Source12:	mouse.png
 Source13:	lmouse.png
-Patch1: qsynaptics-0.22-stdlib-for-exit.patch
+Patch1:		qsynaptics-0.22-stdlib-for-exit.patch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	qt3-devel >= 3.2
 Requires:	synaptics
@@ -48,7 +48,6 @@ Icon=%{name}
 Terminal=false
 Type=Application
 StartupNotify=true
-MimeType=foo/bar;foo2/bar2;
 Categories=Qt;Utility;Settings;HardwareSettings;X-MandrivaLinux-System-Configuration-Hardware;
 EOF
 
