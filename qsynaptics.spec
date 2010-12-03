@@ -4,7 +4,7 @@
 Summary:	A QT application to configure Synaptic TouchPad
 Name:		%{name}
 Version:	%{version}
-Release:	%mkrel 9
+Release:	%mkrel 11
 License:	GPL
 Url:		http://qsynaptics.sourceforge.net/
 Group:		System/Configuration/Hardware
