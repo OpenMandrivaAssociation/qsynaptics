@@ -1,7 +1,7 @@
 Summary:	A QT application to configure Synaptic TouchPad
 Name:		qsynaptics
 Version:	0.22.0
-Release:	20
+Release:	21
 License:	GPLv2
 Group:		System/Configuration/Hardware
 Url:		http://qsynaptics.sourceforge.net/
