@@ -4,7 +4,7 @@ Version:	0.22.0
 Release:	22
 License:	GPLv2
 Group:		System/Configuration/Hardware
-Url:		http://qsynaptics.sourceforge.net/
+Url:		https://qsynaptics.sourceforge.net/
 Source0:	http://prdownloads.sourceforge.net/qsynaptics/%{name}/%{name}-%{version}.tar.bz2
 Source11:	mmouse.png
 Source12:	mouse.png
