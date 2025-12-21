@@ -10,6 +10,7 @@ Source11:	mmouse.png
 Source12:	mouse.png
 Source13:	lmouse.png
 Patch1:		qsynaptics-0.22-stdlib-for-exit.patch
+BuildRequires:	make
 BuildRequires:	qt3-devel >= 3.2
 Requires:	synaptics
 
